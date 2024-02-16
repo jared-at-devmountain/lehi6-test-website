@@ -18,8 +18,8 @@ function App() {
     <>
       hi mom
       {
-        arr.map((num) => {
-          return <p>{num}</p>
+        arr.map((thingObj) => {
+          return <p>{thingObj.name}</p>
         })
       }
     </>
